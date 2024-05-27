@@ -87,6 +87,7 @@ def plot_price_trends(df, product_options):
     st.pyplot(fig)
 
 def main():
+    st.set_page_config(layout = 'wide')
     st.title("What You Wanna Buy Today? (Vege/Meat/Fish/Egg/Dairy)")
 
     # Load the dataset
